@@ -14,10 +14,18 @@ for(let i=1;i<=16;i++){
     }
     
 }
+var RGBColor1;
+function random_rgba() {
+    var o = Math.round, r = Math.random, s = 255;
+    return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
+}
 const allInsideDiv=document.querySelectorAll(".deepDiv");
 allInsideDiv.forEach((div)=>{
     div.addEventListener("mouseover",()=>{
-        div.classList.add("colored");
+        //div.classList.add("colored");
+        RGBColor1 = random_rgba();
+        div.style.background=RGBColor1;
+        //div.setAttribute("style","background:#RGBColor1;")
     })
 });
 

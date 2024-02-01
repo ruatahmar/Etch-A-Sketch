@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    flex-direction: column;
+    background: white;
     align-items: center;
     justify-content: center;
 }
@@ -16,6 +19,7 @@ body{
     border:50px;
     flex:1;
     border:1px solid;
+    background: white;
     
 }
 .insideDiv{
@@ -26,4 +30,8 @@ body{
 }
 .colored{
     background: black;
+}
+h1{
+    color:black;
+    font-size: 50px;
 }
