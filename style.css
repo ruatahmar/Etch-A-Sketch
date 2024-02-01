@@ -1,0 +1,26 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    border-color:black;
+    border:1px solid;
+    width: 500px;
+    height: 500px;
+}
+.deepDiv{
+    display:flex; 
+    border-color: red;
+    border:50px;
+    flex:1;
+    border:1px solid;
+    
+}
+.insideDiv{
+    display:flex; 
+    flex-direction:row;
+    flex:1;
+    
+}
