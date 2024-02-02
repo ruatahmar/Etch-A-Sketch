@@ -35,3 +35,16 @@ h1{
     color:black;
     font-size: 50px;
 }
+.topOptions{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 400px;
+    
+}
+p{
+    font-size: 18px;
+    display: flex;
+
+}
