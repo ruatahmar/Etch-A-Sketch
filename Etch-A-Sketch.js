@@ -39,13 +39,13 @@ function random_rgba() {
     return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
 }
 function coloredGrid(){
-const allInsideDiv=document.querySelectorAll(".deepDiv");
-allInsideDiv.forEach((div)=>{
-    div.addEventListener("mouseover",()=>{
-        //div.classList.add("colored");
-        RGBColor1 = random_rgba();
-        div.style.background=RGBColor1;
-        //div.setAttribute("style","background:#RGBColor1;")
+    const allInsideDiv=document.querySelectorAll(".deepDiv");
+    allInsideDiv.forEach((div)=>{
+        div.addEventListener("mouseover",()=>{
+            //div.classList.add("colored");
+            RGBColor1 = random_rgba();
+            div.style.background=RGBColor1;
+            //div.setAttribute("style","background:#RGBColor1;")
     })
 });
 }
